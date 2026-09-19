@@ -106,3 +106,16 @@ Participants should understand:
 - session/workflow memory
 - human-in-the-loop controls
 - why agent authority must remain bounded
+
+
+## Participant skill/document setup
+
+The updated notebooks first try to locate resources from the cloned repository:
+
+- documents: `Day_2_GenAI_RAG/documents/a001/`
+- skills: `Day_3_Agentic_AI/skills/`
+
+If the repository is not available as a Databricks Git folder, use the fallback workspace locations:
+
+- `/Workspace/Nuclear_Enterprise_360/A001 Documents/`
+- `/Workspace/Nuclear_Enterprise_360/02_Agent_Skills/`
