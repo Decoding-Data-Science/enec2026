@@ -9,7 +9,7 @@
 # MAGIC ## Before running
 # MAGIC 1. Attach this notebook to **Serverless** compute.
 # MAGIC 2. Run the first setup cell to create the schema and volume.
-# MAGIC 3. Upload `nuclear_enterprise_360.db` through **New → Add or upload data → Upload files to a volume**.
+# MAGIC 3. Upload `nuclear_enterprise_360_v2_2_clean.db` through **New → Add or upload data → Upload files to a volume**.
 # MAGIC 4. Select the volume created by this notebook and rerun from the upload-check cell.
 
 # COMMAND ----------
@@ -29,7 +29,7 @@ spark.sql(f"USE CATALOG `{CATALOG}`")
 spark.sql(f"USE SCHEMA `{SCHEMA}`")
 
 VOLUME_PATH = f"/Volumes/{CATALOG}/{SCHEMA}/{VOLUME}"
-DB_PATH = f"{VOLUME_PATH}/nuclear_enterprise_360.db"
+DB_PATH = f"{VOLUME_PATH}/nuclear_enterprise_360_v2_2_clean.db"
 
 print(f"Catalog: {CATALOG}")
 print(f"Schema:  {SCHEMA}")
@@ -46,7 +46,7 @@ print(f"Expected file: {DB_PATH}")
 
 if not Path(DB_PATH).exists():
     raise FileNotFoundError(
-        f"Upload nuclear_enterprise_360.db to {VOLUME_PATH}, then rerun this cell."
+        f"Upload nuclear_enterprise_360_v2_2_clean.db to {VOLUME_PATH}, then rerun this cell."
     )
 print(f"Found training database: {DB_PATH}")
 
