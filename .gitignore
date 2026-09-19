@@ -1,0 +1,17 @@
+# Local / generated files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Large raw databases should be distributed as compressed packages / releases
+*.db
+
+# Local environment
+.env
+.venv/
+venv/
+
+# Generated outputs
+outputs/
+tmp/
