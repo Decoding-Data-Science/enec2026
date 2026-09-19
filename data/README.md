@@ -6,9 +6,13 @@ Use **Nuclear Enterprise 360 — V2.2 Clean Beginner Version** for the final ENE
 
 Created: **16 September 2026**
 
-## Repository package
+## Companion package
 
-`nuclear_enterprise_360_v2_2_clean_pack.zip`
+The final participant download is:
+
+`ENEC_2026_V2_2_Data_and_PDF_Corpus.zip`
+
+It is distributed as a GitHub Release asset rather than committed as a normal repository file.
 
 The companion archive contains:
 - `nuclear_enterprise_360_v2_2_clean.db`
@@ -66,5 +70,7 @@ The uploaded work-order PDF `WO-2026-0817` does **not** provide an estimated-hou
 - `A001_QUICKSTART.sql` — starter queries
 - `verify_v2_2.py` — integrity and expected-count checks
 - `Nuclear_Enterprise_360_V2_2_README.txt` — original V2.2 release note
-- `SHA256SUMS.txt` — checksums for large binary archives
-\n\nSee [`resources/BINARY_ASSETS.md`](../resources/BINARY_ASSETS.md) for binary distribution details.\n
+- `SHA256SUMS.txt` — checksums for companion ZIPs and original A-001 PDFs
+
+
+See [`resources/BINARY_ASSETS.md`](../resources/BINARY_ASSETS.md) for binary distribution details.\n
