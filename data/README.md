@@ -6,6 +6,19 @@ Use **Nuclear Enterprise 360 — V2.2 Clean Beginner Version** for the final ENE
 
 Created: **16 September 2026**
 
+## How participants get the database
+
+The raw SQLite database is not stored directly in this folder because it is approximately 120 MB.
+
+1. Create/sign in to Databricks: `https://login.databricks.com/signup`
+2. Open the Release: `https://github.com/Decoding-Data-Science/enec2026/releases/tag/enec-2026-final`
+3. Download `ENEC_2026_V2_2_Data_and_PDF_Corpus.zip`.
+4. Extract the ZIP.
+5. Locate `nuclear_enterprise_360_v2_2_clean.db`.
+6. Run the Day 1 setup notebook.
+7. Upload the database to `/Volumes/workspace/nuclear_enterprise_360/training_files/`.
+8. Run the remaining setup cells to convert the SQLite tables into Databricks Delta tables.
+
 ## Companion package
 
 The final participant download is:
