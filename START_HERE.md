@@ -4,7 +4,31 @@ Welcome to the four-day **AI for Coders & Software Engineers** programme.
 
 Everything in this repository is synthetic training material. The programme follows one connected enterprise scenario around **Asset A-001**.
 
-## 1. What you need
+## 1. Create your free Databricks account
+
+Go to:
+
+`https://login.databricks.com/signup`
+
+Create/sign in to a free Databricks account before the hands-on setup.
+
+## 2. Download the training data from GitHub Releases
+
+Open:
+
+`https://github.com/Decoding-Data-Science/enec2026/releases/tag/enec-2026-final`
+
+Download:
+
+`ENEC_2026_V2_2_Data_and_PDF_Corpus.zip`
+
+Extract it locally. You should see:
+
+- `nuclear_enterprise_360_v2_2_clean.db` — the actual SQLite training database
+- nine original A-001 PDF documents
+- the V2.2 release notes
+
+## 3. What you need
 
 - GitHub access to this repository
 - Databricks access
@@ -13,7 +37,7 @@ Everything in this repository is synthetic training material. The programme foll
 
 The source notebooks, readable A-001 documents, skills, evaluation files and guides are already in this repository.
 
-## 2. Clone or download the repository
+## 4. Clone or download the repository
 
 Recommended for Databricks: clone/import this GitHub repository into a Databricks Git folder.
 
@@ -23,19 +47,11 @@ Repository:
 
 The Day 2/3 notebooks can automatically locate the repository's readable A-001 document mirrors and skill files when the repository is cloned into Databricks.
 
-## 3. Download the database pack
+## 5. Database pack — already downloaded from the Release
 
-From **GitHub → Releases**, download:
+You will use the extracted `nuclear_enterprise_360_v2_2_clean.db` file in the next step.
 
-`ENEC_2026_V2_2_Data_and_PDF_Corpus.zip`
-
-Extract it locally. It contains:
-
-- `nuclear_enterprise_360_v2_2_clean.db`
-- the original nine A-001 PDF documents
-- V2.2 release notes
-
-## 4. Upload the database to Databricks
+## 6. Upload the database to Databricks
 
 Run:
 
@@ -57,7 +73,7 @@ Upload the extracted database to:
 
 Then rerun the setup notebook from the upload-check cell.
 
-## 5. A-001 documents
+## 7. A-001 documents
 
 You have two options.
 
@@ -73,7 +89,7 @@ The companion data pack contains the original PDFs. If your exercise specificall
 
 `/Workspace/Nuclear_Enterprise_360/A001 Documents/`
 
-## 6. Agent skills
+## 8. Agent skills
 
 The four skill files are already in:
 
@@ -85,14 +101,14 @@ Fallback manual Databricks location:
 
 `/Workspace/Nuclear_Enterprise_360/02_Agent_Skills/`
 
-## 7. Follow the four days
+## 9. Follow the four days
 
 1. [Day 1 — Databricks, Data & ML](Day_1_Databricks_Data_ML/)
 2. [Day 2 — GenAI & RAG](Day_2_GenAI_RAG/)
 3. [Day 3 — Agentic AI](Day_3_Agentic_AI/)
 4. [Day 4 — Integrated Capstone](Day_4_Integrated_Capstone/)
 
-## 8. Training boundary
+## 10. Training boundary
 
 The A-001 case, database, documents, observations and predictions are synthetic.
 
