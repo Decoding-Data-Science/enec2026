@@ -1,0 +1,6 @@
+llama-index-core==0.14.24
+llama-index-readers-file
+llama-index-embeddings-huggingface
+sentence-transformers
+pypdf
+mlflow
