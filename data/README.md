@@ -10,7 +10,7 @@ Created: **16 September 2026**
 
 `nuclear_enterprise_360_v2_2_clean_pack.zip`
 
-The archive contains:
+The companion archive contains:
 - `nuclear_enterprise_360_v2_2_clean.db`
 - the nine A-001 PDF evidence documents
 - the V2.2 README
@@ -67,3 +67,4 @@ The uploaded work-order PDF `WO-2026-0817` does **not** provide an estimated-hou
 - `verify_v2_2.py` — integrity and expected-count checks
 - `Nuclear_Enterprise_360_V2_2_README.txt` — original V2.2 release note
 - `SHA256SUMS.txt` — checksums for large binary archives
+\n\nSee [`resources/BINARY_ASSETS.md`](../resources/BINARY_ASSETS.md) for binary distribution details.\n
