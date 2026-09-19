@@ -8,6 +8,39 @@ The programme uses **Databricks** as the primary hands-on environment and progre
 
 > **Training notice:** every asset, document, procedure, observation and dataset in this repository is synthetic and designed only for training. Nothing here is operational engineering guidance.
 
+## Participant Quick Start — Get the Data into Databricks
+
+1. **Create a free Databricks account:** https://login.databricks.com/signup
+2. Open the training Release: https://github.com/Decoding-Data-Science/enec2026/releases/tag/enec-2026-final
+3. Download **`ENEC_2026_V2_2_Data_and_PDF_Corpus.zip`**.
+4. Extract the ZIP on your computer.
+5. Confirm you can see **`nuclear_enterprise_360_v2_2_clean.db`** and the nine A-001 PDFs.
+6. In Databricks, open/import this repository and run:
+   `Day_1_Databricks_Data_ML/notebooks/00_Setup_Nuclear_Enterprise_360.py`
+7. Run the first setup cell. It creates the schema and `training_files` Volume.
+8. In Databricks choose **New → Add or upload data → Upload files to a volume**.
+9. Upload `nuclear_enterprise_360_v2_2_clean.db` to:
+   `/Volumes/workspace/nuclear_enterprise_360/training_files/`
+10. Return to the setup notebook and run the upload-check cell, then run the remaining setup cells.
+11. Verify A-001:
+
+```sql
+SELECT *
+FROM workspace.nuclear_enterprise_360.asset_360
+WHERE asset_id = 'A-001';
+```
+
+12. Verify the hourly teaching dataset:
+
+```sql
+SELECT COUNT(*)
+FROM workspace.nuclear_enterprise_360.a001_sensor_hourly;
+```
+
+Expected result: **8,760 rows**.
+
+> The `.db` file is the actual SQLite training database. Do not try to open it as a text file or notebook. The setup notebook converts it into Databricks Delta tables.
+
 ## Capability journey
 
 ```text
