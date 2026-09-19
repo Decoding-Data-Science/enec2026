@@ -55,7 +55,11 @@ Grounded answer + sources
 
 ## A-001 RAG corpus
 
-See `documents/` and `evaluation/`.
+See:
+- `documents/a001/` — readable repository mirrors of the full nine-document corpus
+- `evaluation/` — manifest and evaluation questions
+
+The original PDFs are included in the companion GitHub Release data pack.
 
 The corpus deliberately contains:
 - an APPROVED current procedure
@@ -74,7 +78,7 @@ This creates the central governance lesson:
 
 ## Recommended retrieval settings for the beginner notebook
 
-- PDFs only
+- PDF or Markdown source documents
 - chunk size: 400
 - overlap: 100
 - top-k: 3
@@ -96,3 +100,14 @@ Participants should be able to explain:
 - why metadata and document authority matter
 - how RAG grounds an LLM in enterprise evidence
 - why citations/provenance are required for enterprise trust
+
+
+## Participant document setup
+
+**Repo-native:** if this repository is cloned into Databricks, the updated notebooks first look for `Day_2_GenAI_RAG/documents/a001/`.
+
+**Original-PDF exercise:** download the companion data pack from GitHub Releases and upload the nine PDFs to:
+
+`/Workspace/Nuclear_Enterprise_360/A001 Documents/`
+
+See [documents/a001/README.md](documents/a001/README.md).
