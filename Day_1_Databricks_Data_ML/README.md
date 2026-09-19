@@ -1,5 +1,20 @@
 # Day 1 — Databricks Foundations, Enterprise Data & Machine Learning
 
+## Start Here — Participant Steps
+
+1. Read the **[Training Handbook](TRAINING_HANDBOOK.md)**.
+2. Create/sign in to a free Databricks account: https://login.databricks.com/signup
+3. Download the data pack from the training Release:
+   https://github.com/Decoding-Data-Science/enec2026/releases/tag/enec-2026-final
+4. Download **`ENEC_2026_V2_2_Data_and_PDF_Corpus.zip`**.
+5. Extract it and locate **`nuclear_enterprise_360_v2_2_clean.db`**.
+6. Run `notebooks/00_Setup_Nuclear_Enterprise_360.py`.
+7. Upload the database to:
+   `/Volumes/workspace/nuclear_enterprise_360/training_files/`
+8. Continue with the SQL and forecasting notebooks below.
+
+> The `.db` file is the real SQLite training database. The setup notebook converts it into Databricks Delta tables.
+
 ## Goal
 
 Set up the Databricks environment, understand the synthetic enterprise database and supporting document set, and take historical A-001 sensor data through to a simple predictive workflow.
