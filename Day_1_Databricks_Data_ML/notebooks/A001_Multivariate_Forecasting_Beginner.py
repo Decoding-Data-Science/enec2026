@@ -52,7 +52,7 @@ from sklearn.linear_model import Ridge
 from sklearn.metrics import mean_absolute_error, mean_squared_error
 
 # Change this path only if your database is stored elsewhere.
-DB_PATH = "/Workspace/Nuclear_Enterprise_360/nuclear_enterprise_360_v2_2_clean.db"
+DB_PATH = "/Volumes/workspace/nuclear_enterprise_360/training_files/nuclear_enterprise_360_v2_2_clean.db"
 
 if not os.path.exists(DB_PATH):
     raise FileNotFoundError(
