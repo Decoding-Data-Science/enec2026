@@ -85,7 +85,7 @@ Recommended workspace folders:
 
 ### Participants
 1. Read [resources/PARTICIPANT_SETUP.md](resources/PARTICIPANT_SETUP.md).
-2. Download/extract the V2.2 data package from [data](data/).
+2. Download/extract the V2.2 companion data pack described in [resources/BINARY_ASSETS.md](resources/BINARY_ASSETS.md).
 3. Import the Day 1 notebooks into Databricks.
 4. Run `00_Setup_Nuclear_Enterprise_360.py`.
 5. Follow the README inside each day folder.
@@ -134,3 +134,4 @@ By the end of Day 4, participants should be able to explain and demonstrate how 
 
 **Decoding Data Science — Learn by Building**  
 ENEC 2026 synthetic enterprise AI training repository.
+\n## Binary companion packs\n\nThe large V2.2 SQLite/PDF corpus and the original PowerPoint/Word trainer materials are distributed as companion ZIP assets. See [resources/BINARY_ASSETS.md](resources/BINARY_ASSETS.md).\n
