@@ -52,12 +52,12 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-DB_PATH = "/Workspace/Nuclear_Enterprise_360/nuclear_enterprise_360_v2_1.db"
+DB_PATH = "/Volumes/workspace/nuclear_enterprise_360/training_files/nuclear_enterprise_360_v2_2_clean.db"
 
 if not os.path.exists(DB_PATH):
     raise FileNotFoundError(
         f"Database not found at {DB_PATH}. "
-        "Upload nuclear_enterprise_360_v2_1.db and update DB_PATH in this cell."
+        "Upload nuclear_enterprise_360_v2_2_clean.db and update DB_PATH in this cell."
     )
 
 conn = sqlite3.connect(DB_PATH)
