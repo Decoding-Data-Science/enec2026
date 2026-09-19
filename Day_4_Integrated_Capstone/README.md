@@ -34,10 +34,10 @@ Bring the previous three days together into one inspectable enterprise AI workfl
 
 ## Core capstone assets
 
-- `notebooks/04_Agentic_AI_Capstone.py`
+- `notebooks/04_Integrated_A001_Capstone.py`
 - `CAPSTONE_BRIEF.md`
 - `EVALUATION_RUBRIC.md`
-- `resources/Day_4_Enterprise_AI_Capstone_Lab.zip`
+- the companion trainer/binary packs documented in `../resources/BINARY_ASSETS.md`
 
 ## Capstone mission
 
