@@ -1,5 +1,7 @@
 # ENEC 2026 — AI for Coders & Software Engineers
 
+> **Participants:** start with [START_HERE.md](START_HERE.md).
+
 A four-day, instructor-led, hands-on enterprise AI programme built around one connected synthetic scenario: **Asset A-001, a cooling-water pump**.
 
 The programme uses **Databricks** as the primary hands-on environment and progressively connects enterprise data, machine learning, Generative AI, Retrieval-Augmented Generation (RAG), AI agents, governed workflows and a final integrated application.
@@ -84,11 +86,13 @@ Recommended workspace folders:
 ## Start here
 
 ### Participants
-1. Read [resources/PARTICIPANT_SETUP.md](resources/PARTICIPANT_SETUP.md).
-2. Download/extract the V2.2 companion data pack described in [resources/BINARY_ASSETS.md](resources/BINARY_ASSETS.md).
-3. Import the Day 1 notebooks into Databricks.
-4. Run `00_Setup_Nuclear_Enterprise_360.py`.
+1. Open [START_HERE.md](START_HERE.md).
+2. Clone/download this repository.
+3. Download the V2.2 data/PDF companion pack from GitHub Releases.
+4. Run the Day 1 setup notebook in Databricks.
 5. Follow the README inside each day folder.
+
+The repository now also includes readable mirrors of all nine A-001 documents under `Day_2_GenAI_RAG/documents/a001/`.
 
 ### Instructor
 1. Read [resources/INSTRUCTOR_RUN_OF_SHOW.md](resources/INSTRUCTOR_RUN_OF_SHOW.md).
@@ -134,4 +138,13 @@ By the end of Day 4, participants should be able to explain and demonstrate how 
 
 **Decoding Data Science — Learn by Building**  
 ENEC 2026 synthetic enterprise AI training repository.
-\n## Binary companion packs\n\nThe large V2.2 SQLite/PDF corpus and the original PowerPoint/Word trainer materials are distributed as companion ZIP assets. See [resources/BINARY_ASSETS.md](resources/BINARY_ASSETS.md).\n
+\n## Binary companion packs
+
+Two large/binary companion packs are distributed through GitHub Releases:
+
+- `ENEC_2026_V2_2_Data_and_PDF_Corpus.zip`
+- `ENEC_2026_Slides_and_Trainer_Materials.zip`
+
+See [resources/BINARY_ASSETS.md](resources/BINARY_ASSETS.md).
+
+For repository-owner publishing steps, see [resources/OWNER_FINAL_STEPS.md](resources/OWNER_FINAL_STEPS.md).
