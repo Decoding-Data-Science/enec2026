@@ -36,3 +36,4 @@ Some deck filenames reflect the earlier development sequence. In the **final fou
 ## Teaching rule
 
 Use slides to explain **WHAT → SO WHAT → NOW WHAT**, then move quickly into the notebook/demo.
+\n\nSee [`../BINARY_ASSETS.md`](../BINARY_ASSETS.md) for publishing/distribution guidance.\n
