@@ -1,17 +1,48 @@
 # Participant Setup Guide — V2.2
 
-## Before class
+## Before class — complete these steps in order
 
-Create/sign in to:
+### 1. Create a free Databricks account
 
-- Databricks: https://login.databricks.com/signup
-- GitHub: https://github.com/signup?source=login
+Open:
 
-Download or clone the ENEC 2026 repository.
+`https://login.databricks.com/signup`
 
-Also download the companion Release asset:
+Create/sign in to your Databricks account.
+
+### 2. Open the public training repository
+
+`https://github.com/Decoding-Data-Science/enec2026`
+
+### 3. Download the data pack from the GitHub Release
+
+Open:
+
+`https://github.com/Decoding-Data-Science/enec2026/releases/tag/enec-2026-final`
+
+Under **Assets**, download:
 
 `ENEC_2026_V2_2_Data_and_PDF_Corpus.zip`
+
+Extract it on your computer. Confirm that you can see:
+
+- `nuclear_enterprise_360_v2_2_clean.db`
+- nine A-001 PDF files
+- V2.2 README
+
+The `.db` file is the real SQLite training database. It is compressed inside the ZIP because the raw database is approximately 120 MB.
+
+### 4. GitHub account
+
+If you want to clone/fork the repository, create/sign in to GitHub:
+
+`https://github.com/signup?source=login`
+
+## Previous quick links
+
+Repository: `https://github.com/Decoding-Data-Science/enec2026`
+
+Release: `https://github.com/Decoding-Data-Science/enec2026/releases/tag/enec-2026-final`
 
 ## Databricks setup
 
