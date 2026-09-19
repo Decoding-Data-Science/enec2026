@@ -2,7 +2,7 @@
 
 The original PowerPoint/Word/PDF binaries are bundled in:
 
-`ENEC_Slide_Decks_and_Trainer_Guides.zip`
+`ENEC_2026_Slides_and_Trainer_Materials.zip`
 
 ## Day 1
 
@@ -36,4 +36,6 @@ Some deck filenames reflect the earlier development sequence. In the **final fou
 ## Teaching rule
 
 Use slides to explain **WHAT → SO WHAT → NOW WHAT**, then move quickly into the notebook/demo.
-\n\nSee [`../BINARY_ASSETS.md`](../BINARY_ASSETS.md) for publishing/distribution guidance.\n
+
+
+See [`../BINARY_ASSETS.md`](../BINARY_ASSETS.md) for publishing/distribution guidance.\n
