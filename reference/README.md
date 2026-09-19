@@ -22,4 +22,4 @@ It contains:
   - `03_RAG_and_Hybrid_Retrieval.py`
   - `04_Agentic_AI_Capstone.py`
 
-Use the newer V2.2 data package and updated A-001 notebooks for final delivery unless you specifically need to demonstrate the earlier architecture/history.
+Use the newer V2.2 data package and updated A-001 notebooks for final delivery. The older binary archive is not required for participants; relevant final source files have been promoted into the Day 1–4 folders.
