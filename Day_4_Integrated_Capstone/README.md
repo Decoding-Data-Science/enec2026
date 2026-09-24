@@ -1,5 +1,7 @@
 # Day 4 — Integrated Enterprise AI Application, Capstone & Evaluation
 
+https://docs.google.com/forms/d/1ASJOMV28LvbftJx0ERCFhSztLS_8ZWtIq9Ft99uDGvA/preview
+
 ## Goal
 
 Bring the previous three days together into one inspectable enterprise AI workflow and finish with a practical A-001 capstone.
