@@ -1,5 +1,5 @@
 # Day 1 — Databricks Foundations, Enterprise Data & Machine Learning
-
+wEBSITE https://decoding-data-science.github.io/enec2026
 ## Start Here — Participant Steps
 
 1. Read the **[Training Handbook](TRAINING_HANDBOOK.md)**.
