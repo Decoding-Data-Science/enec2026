@@ -1,7 +1,7 @@
 # Day 1 — Databricks Foundations, Enterprise Data & Machine Learning
 wEBSITE https://decoding-data-science.github.io/enec2026
 ## Start Here — Participant Steps
-
+#Video for yt https://www.youtube.com/playlist?list=PLDyIa8SvIorY
 1. Read the **[Training Handbook](TRAINING_HANDBOOK.md)**.
 2. Create/sign in to a free Databricks account: https://login.databricks.com/signup
 3. Download the data pack from the training Release:
