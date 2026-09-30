@@ -8,6 +8,7 @@ The programme uses **Databricks** as the primary hands-on environment and progre
 
 > **Training notice:** every asset, document, procedure, observation and dataset in this repository is synthetic and designed only for training. Nothing here is operational engineering guidance.
 
+different model https://developers.openai.com/api/docs/models
 ## Participant Quick Start — Get the Data into Databricks
 
 1. **Create a free Databricks account:** https://login.databricks.com/signup
