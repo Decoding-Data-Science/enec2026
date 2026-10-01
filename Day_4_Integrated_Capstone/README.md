@@ -1,6 +1,6 @@
 # Day 4 — Integrated Enterprise AI Application, Capstone & Evaluation
 
-https://docs.google.com/forms/d/1ASJOMV28LvbftJx0ERCFhSztLS_8ZWtIq9Ft99uDGvA/preview
+Submit final project here : https://docs.google.com/forms/d/1ASJOMV28LvbftJx0ERCFhSztLS_8ZWtIq9Ft99uDGvA/preview
 
 ## Goal
 
